@@ -1,12 +1,12 @@
 # botinvitetel
-
+Внимание! Термукс может "спросить" согласие на установку некоторых инструментов, следите за текстом, если выводит Y/N, Yes or No, нужно вписать Y и нажать на enter.
 Заходим в термукс и вписываем команды:
 
 apt update && apt upgrade
 
 apt install git
 
-apt install python && apt install python2
+pkg install python
 
 termux-setup-storage
 
