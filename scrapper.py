@@ -3,9 +3,9 @@ from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty
 import csv
 
-api_id = '' #Введите api_id
-api_hash = '' #Введите api_hash id
-phone = '' #Введите номер телефона с кодом страны, пример: +79999999999
+api_id = input("Введите api_id: ") #Введите api_id
+api_hash = input("Введите api_hash id: ") #Введите api_hash id
+phone = input("Введите номер телефона с кодом страны, пример: +79999999999: ") #Введите номер телефона с кодом страны, пример: +79999999999
 client = TelegramClient(phone, api_id, api_hash)
 async def main():
     await client.send_message('me', 'Привет !!!!')
